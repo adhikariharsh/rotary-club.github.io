@@ -1,0 +1,332 @@
+section .main {
+    background-image: url(../images/pass.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.we-do {
+    padding: 80px 0;
+}
+
+.we-do .we-do-text {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.we-do .we-do-text h2 {
+    font-size: 56px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.we-do .we-do-text h2 span {
+    color: #ffa302;
+}
+
+.we-do .we-do-text p {
+    max-width: 450px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.all-details .details {
+    padding: 15px 20px;
+    text-align: center;
+    border: 1px solid #ffa302;
+    border-radius: 5px;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.we-do .all-details .row {
+    padding-top: 50px;
+}
+
+.all-details .details img {
+    width: 70px;
+}
+
+.all-details .details h3 {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.aim {
+    width: 100%;
+}
+
+.aim .mission,
+.aim .vision {
+    background-color: #000;
+    width: 50%;
+    padding: 80px 0px 25px 0px;
+}
+
+.aim .vision {
+    background-color: #f9a102;
+    width: 50%;
+}
+
+.aim .img-right {
+    text-align: right;
+}
+
+.mission .mission-text,
+.vision .vision-text {
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mission .mission-text h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.vision .vision-text h2 {
+    color: #000;
+    text-transform: uppercase;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.mission .mission-text h2 span {
+    color: #f9a102;
+}
+
+.vision .vision-text h2 span {
+    color: #fff;
+}
+
+.mission .mission-text p {
+    color: #fff;
+    font-size: 16px;
+    opacity: .8;
+    padding-top: 20px;
+    max-width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.vision .vision-text p {
+    color: #000;
+    font-size: 16px;
+    padding-top: 20px;
+    opacity: .8;
+    max-width: 400px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.mission img {
+    margin-top: 50px;
+}
+
+.vision img {
+    margin-top: 50px;
+}
+
+.memories {
+    width: 100%;
+    padding: 80px 0 100px;
+}
+
+.memories .memo-text {
+    max-width: 620px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.memories .memo-text h2 {
+    font-size: 56px;
+    padding-bottom: 10px;
+}
+
+.memories .memo-text h2 span {
+    color: #f9a102;
+}
+
+.memories .memo-text p {
+    font-size: 16px;
+}
+
+.memories .memo-pics {
+    padding-top: 50px;
+}
+
+.memo-pics img {
+    padding: 0 10px;
+}
+
+@media (max-width:992px) {
+    .we-do {
+        padding: 40px 0 50px;
+    }
+
+    .we-do .we-do-text h2 {
+        font-size: 46px;
+        padding-bottom: 6px;
+    }
+
+    .we-do .all-details .row {
+        padding-top: 30px;
+    }
+
+    .all-details .details {
+        padding: 10px 10px;
+        text-align: center;
+        flex: 1;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        column-count: 2;
+    }
+
+    .all-details .details h3 {
+        font-size: 16px;
+        padding: 5px 0;
+        text-align: left;
+        padding-left: 10px;
+    }
+
+    .aim .mission {
+        background-color: #000;
+        width: 100%;
+        padding: 50px 0px 25px 0px;
+    }
+
+    .mission .mission-text h2 {
+        font-size: 46px;
+
+    }
+
+    .mission .mission-text p {
+        font-size: 14px;
+        max-width: 600px;
+    }
+
+    .aim .vision {
+        width: 100%;
+    }
+
+    .vision .vision-text h2 {
+        font-size: 46px;
+    }
+
+    .aim .vision {
+        width: 100%;
+        padding: 50px 0px 25px 0px;
+    }
+
+    .vision .vision-text p {
+        color: #000;
+        font-size: 14px;
+        max-width: 580px;
+    }
+
+    .memories {
+        padding: 40px 0 60px;
+    }
+
+    .memories .memo-text h2 {
+        font-size: 46px;
+    }
+
+    .memories .memo-text p {
+        font-size: 14px;
+    }
+
+    .memories .memo-pics {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .container {
+        padding: 0 20px;
+    }
+
+    .we-do .we-do-text h2 {
+        font-size: 26px;
+    }
+
+    .we-do .we-do-text p {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .we-do {
+        padding: 20px 0 30px;
+    }
+
+    .we-do .all-details .row {
+        padding-top: 10px;
+    }
+
+    .all-details .details {
+        margin: 10px;
+    }
+
+    .aim .mission {
+        padding: 30px 0px 25px 0px;
+    }
+
+    .mission .mission-text h2 {
+        font-size: 26px;
+        padding: 0px 20px;
+    }
+
+    .mission .mission-text p {
+        font-size: 12px;
+        max-width: 100%;
+        padding: 10px 20px 0 20px;
+    }
+
+    .mission img {
+        margin-top: 30px;
+        width: 250px;
+    }
+
+    .vision .vision-text h2 {
+        font-size: 26px;
+    }
+
+    .aim .vision {
+        padding: 30px 0px 25px 0px;
+    }
+
+    .vision .vision-text p {
+        font-size: 12px;
+        max-width: 100%;
+        padding: 10px 20px 0 20px;
+    }
+
+    .vision img {
+        margin-top: 30px;
+        width: 250px;
+    }
+
+    .memories {
+        padding: 20px 0 40px;
+    }
+
+    .memories .memo-text h2 {
+        font-size: 26px;
+        padding-bottom: 5px;
+    }
+
+    .memories .memo-text p {
+        font-size: 12px;
+    }
+
+    .memories .memo-pics {
+        padding-top: 20px;
+    }
+
+}

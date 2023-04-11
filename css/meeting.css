@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato&family=Playfair+Display&family=Source+Serif+4&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/top.png);
+    font-family: 'Source Serif 4', serif;
+    padding: 5px 0;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text p {
+    color: white;
+    font-size: 20px;
+}
+
+
+.text ul {
+    display: flex;
+    align-items: center;
+}
+
+.text ul li {
+    margin-left: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.text ul li img {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    padding: 20px 0;
+    background-color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+header .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+header .row ul {
+    display: flex;
+    justify-content: center;
+}
+
+header .row ul li {
+    margin: 0 40px;
+}
+
+header .row ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+header .row ul li a span {
+    font-size: 8px;
+    font-weight: 100;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+header li.dropdown {
+    position: relative;
+}
+
+header .dropdown .submenu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 180px;
+    background: #000;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #ffa303;
+    border-radius: 5px;
+    z-index: 99;
+    display: none;
+}
+
+header li.dropdown ul {
+    display: block;
+}
+
+header li.dropdown ul li {
+    margin: 6px 0;
+}
+
+header li.dropdown:hover .submenu {
+    display: block;
+}
+
+.header-btn {
+    text-align: right;
+}
+
+.toggle {
+    display: none;
+}
+
+header .row .fa-solid {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+header a {
+    color: #DFB05A;
+    font-size: 16px;
+}
+
+.fa-solid {
+    color: white;
+    margin-left: 10px;
+}
+
+.meeting {
+    width: 100%;
+    background-color: #ffa303;
+}
+
+.meeting .meets {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.meeting .meets h3 {
+    font-size: 56px;
+    color: #fff;
+}
+
+.meeting .meets h3 span {
+    color: #000;
+}
+
+.meeting .dates {
+    width: 100%;
+    text-align: center;
+}
+
+.dates li {
+    display: inline-block;
+}
+
+.dates p {
+    background: #fff;
+    border-radius: 4px;
+    padding: 0px 14px 0 0;
+}
+
+.dates p span {
+    background: #000;
+    display: inline-block;
+    padding: 6px 10px;
+    margin-right: 9px;
+    border-radius: 4px;
+    color: #fff;
+}
